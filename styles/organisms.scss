@@ -1,0 +1,8 @@
+@use  'atoms.scss';
+
+.header {
+	@extend .card;
+	display: flex;
+	gap: 1rem;
+	background-color: var(--principal-color);
+}

@@ -16,7 +16,7 @@ export default function RootLayout({ children }: props) {
       </head>
       <body>
         <header>
-          <nav className='card navegation'>
+          <nav className='header'>
             <Link href='/'>home</Link>
             <Link href='/pokedex/1'>pokedex</Link>
           </nav>
