@@ -4,7 +4,7 @@ import Image from 'next/image'
 interface Props {
   params: {
     id: string
-  }
+  } 
 }
 
 async function Page({ params }: Props) {

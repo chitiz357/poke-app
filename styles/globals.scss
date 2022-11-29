@@ -4,6 +4,19 @@
 @use "elements.scss";
 @use "organisms.scss";
 
+// layout ---------------------------------------------------------------------
+
+.container {
+	margin: auto;
+	max-width: 1080px;
+	min-height: 100vh;
+	padding: 1rem;
+	background-color: rgba(255, 255, 255, 0.137);
+
+}
+
+
+
 .gallery {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));

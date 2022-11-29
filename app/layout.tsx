@@ -21,7 +21,7 @@ export default function RootLayout({ children }: props) {
             <Link href='/pokedex/1'>pokedex</Link>
           </nav>
         </header>
-        <main>{children}</main>
+        <main className='container'>{children}</main>
       </body>
     </html>
   )
